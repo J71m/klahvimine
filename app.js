@@ -32,6 +32,7 @@ TYPER.prototype = {
     this.canvas.height = this.HEIGHT * 2
 
     this.loadWords()
+    console.error("pls")
   },
 
   loadWords: function () {
@@ -45,6 +46,7 @@ TYPER.prototype = {
         typer.words = structureArrayByWordLength(wordsFromFile)
 
         typer.start()
+        
       }
     }
 
@@ -55,7 +57,7 @@ TYPER.prototype = {
   start: function () {
     this.generateWord()
     this.word.Draw()
-
+    
     window.addEventListener('keypress', this.keyPressed.bind(this))
   },
 
