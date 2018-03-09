@@ -1,0 +1,23 @@
+{
+  "name": "klahvimine",
+  "version": "1.0.0",
+  "description": "* Mäng, mille eesmärk on võimalikult kiiresti ekraanile tekkivaid sõnu ära trükkida * Sõnad võetud [Eesti Keele Instituudi lehelt](http://www.eki.ee/tarkvara/wordlist/), [lemmad2013](http://www.eki.ee/tarkvara/wordlist/lemmad2013.txt)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://j71m@github.com/J71m/klahvimine.git"
+  },
+  "author": "TJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J71m/klahvimine/issues"
+  },
+  "homepage": "https://github.com/J71m/klahvimine#readme",
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "standard": "^11.0.0"
+  }
+}
