@@ -47,6 +47,11 @@ TYPER.prototype = {
 
         typer.start()
         
+
+
+
+
+        
       }
     }
 
